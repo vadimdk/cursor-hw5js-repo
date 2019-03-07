@@ -12,7 +12,7 @@ convert(10)
 }
 reverseString("abc");*/
 
-
+/*Завдання 3*/
 /*function printStairs(n) { 
     for(let i = 1; i <= n; i++) {
         console.log( '#' .repeat(i))
@@ -21,7 +21,7 @@ reverseString("abc");*/
 
 printStairs(4)*/
 
-/*Завдання 3*/
+/*Завдання 4*/
 /*function range(start, end, step) {
   let arr = []; //declare an empty array
   var step = step || 1;//tests to see if step was supplied, otherwise it's 1
