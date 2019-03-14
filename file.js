@@ -1,32 +1,34 @@
 /*Завдання 1*/
-//function convert(amount) { 
-//  let rateDollar = 8;
-//   console.log( amount*dollarRate);
-// }
-//
-//convert(10) 
+function convert(amount) { 
+  const dollarRate = 8;
+    let grn = amount*dollarRate; 
+     return grn;
+   
+ }
+
+//console.log(convert(10)); 
 
 
 
 /*Завдання 2*/
-/*function reverseString(str) {
+function reverseString(str) {
     return str.split("").reverse().join("");
 }
-reverseString("abc")*/
+//reverseString("abc")
 
 
 
 /*Завдання 3*/
-//function printStairs(n) { 
-//    for(let i = 0; i <= n; i++) {
-//        console.log('#'.repeat(i))
-//    }
-//}
-//
+function printStairs(n) { 
+    for(let i = 0; i <= n; i++) {
+        console.log('#'.repeat(i))
+    }
+}
+
 //printStairs(4)
 
 /*Завдання 4*/
-/*function range(start, end, step) {
+function range(start, end, step) {
   let arr = []; //declare an empty array
   var step = step || 1;//tests to see if step was supplied, otherwise it's 1
   if(start < end) 
@@ -48,36 +50,38 @@ function sum(array) {
   return total;
 }
 
-console.log(sum(range(0,10)));*/
+//console.log(sum(range(0,10)));
 
 
 
     //  Завдання 5 a function which returns the smallest of three numbers
 
-//function min(a, b, c) { 
-//    if (a < b && a < c) {
-//     console.log(a)
-// }
-//    else if(b < a && b < c) {
-//        console.log(b)
-//    }
-//     else {
-//         console.log(c)
-//     }
-//
-//}
-//
-//min(10, 5, 11) 
-//min(3, 8, 4) 
+function min(a, b, c) { 
+    
+    if (a < b && a < c) {
+     return  a;
+ }
+    else if(b < a && b < c) {
+        return b;
+    }
+     else {
+         return c;
+     }
+ 
+}
+
+//console.log(min(10, 5, 11)); 
+//console.log(min(3, 8, 4)); 
 
 
-//function min(a, b, c) { 
-//    let result = Math.min(a,b,c);
-//         console.log(result)
-//     }
-//
-//min(10, 5, 11) 
-//min(3, 8, 4) 
+function min(a, b, c) { 
+    let result = Math.min(a,b,c);
+         return result;
+     }
+
+//console.log(min(10, 5, 11));
+//console.log(min(3, 8, 4));
+ 
 
 
 
